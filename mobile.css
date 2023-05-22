@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background: red;
+  font-family: 'poppins';
+}
+
+
+.mainPage{
+  height: 100vh;
+  width: 100%;
+  background: #2b323d;
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px; 
+}
+
+.mobilenav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: -210px;
+  margin-top: 15px;
+}
+
+.mobilenav img{
+  cursor: pointer;
+}
+
+.mobilenav2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -270px;
+  margin-top: 15px;
+}
+
+.mobilenav2 img{
+  max-width: 15px;
+  margin-left: 15px;
+}
+
+.mobilenav2 #manmobile{
+  max-width: 30px;
+  border-radius: 50%;
+}
+
+
+.mobilenav img{
+  max-width: 15px;
+}
+.mobilenav h6{
+  font-family: 'poppins';
+  color: #fff;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.googlelogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.googlelogo img{
+  max-width: 150px;
+}
+
+.searchbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbox img{
+  max-width: 20px;
+  margin-left: 0px;
+}
+
+.searchbox #src{
+  margin-left: 10px;
+}
+
+.logos #mic {
+  margin-left: -60px;
+  max-width: 14px;
+}
+.logos #lens{
+  margin-left: 15px;
+}
+
+
+.logos img{
+  margin-left: -450px;
+}
+
+
+
+
+.navBar #gmail, #images{
+  display: none;
+}
+
+
+
+.searchbox input{
+  width: 250px;
+  padding: 15px 35px;
+  font-size: 13px;
+  margin-left: -32px;
+  box-shadow: 3px 3px 6px #16191f,
+  -3px -3px 6px #414b5c;
+}
+
+
+#bars{
+  display: none;
+  
+}
+#man{
+  display: none;
+}
+
+.buttons{
+  display: none;
+}
+.lang h6{
+  font-size: 11px;
+}
+.lang a{
+  text-decoration: none;
+}
+
+
+.bd{
+  margin-top: 300px;
+  font-size: 10px;
+  
+}
+
+
+.foot1{
+  margin-top: 0px;
+  border: none;
+  
+}
+
+.foot1 ul li{
+  
+  font-size: 10px;
+}
+
+.foot1 #ul1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ul2{
+  display: none;
+}
+
+.foot2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #111;
+  color: #fff;
+  border: none;
+  
+}
+
+.foot2 ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot2 ul li{
+  font-size: 10px;
+  margin-left: 10px;
+}
